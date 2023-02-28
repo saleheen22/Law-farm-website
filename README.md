@@ -1,1 +1,1 @@
-# This website is made using CSS framework bootstrap
+# This website is developed using CSS framework bootstrap
