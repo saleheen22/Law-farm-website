@@ -1,0 +1,217 @@
+.button-color{
+    background-color: #B68C5A !important;
+}
+.fnt{
+    font-family: 'EB Garamond';
+}
+.crd-bg{
+   
+    border-top-color: #B68C5A;
+    border-top: 5px;
+    -ms-grid-row-align: start;
+}
+.banner{
+    background-image: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1170px;
+    z-index: 0;
+    position: relative;
+    margin-left: 60px;
+    
+}
+.content-on-banner{
+    min-height: 550px;
+    max-width: 1170px;
+    
+    
+}
+.banner-title{
+    font-family: 'EB Garamond';
+    font-weight: 200;
+    font-size: 65px;
+    line-height: 85px;
+}
+.form-control{
+    width: 380px;
+    margin-top: 4px;
+}
+.crd-img{
+    height: 70px;
+    width: 70px;
+    padding-top: 15px;
+    
+}
+.legal-practice{
+    margin: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.bg-brown{
+    background-color: #e0bb8e;
+}
+.banner-description{
+    width: 696px;
+    margin-left: 100px;
+}
+.carsl-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.crsl{
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    padding-left: 390px;
+    margin-top: 200px;
+   }
+.frona{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.accordion-item, .accordion-header, .accordion-button{
+    background-color: rgb(232, 232, 228) !important;
+}
+.accordion-item{
+    box-shadow: 0 2px 25px 0 rgb(146, 146, 140);
+    
+}
+.accordion-button::after {
+    background-image: initial;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: initial;
+  }
+.accordion-button {
+    position: relative;
+    
+    
+   }
+   .accordion-button:before {
+    position: absolute;
+    content: "+" !important;
+    right: 10px;
+    top: 5px;
+   }
+   .accordion-button[aria-expanded="true"]:before {
+    content: "-"; }  
+    .accordion-button {
+        display: inline !important;
+      }
+  .contact-bg{
+    background-color: #F3F3F3;
+  }
+@media only screen and (max-width: 576px){
+    .banner{
+        width: 550px;
+        height: 1170px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .content-on-banner{
+        min-height: 150px;
+        max-width: 1170px;
+       
+        
+    }
+    .banner-title{
+        font-family: 'EB Garamond';
+        font-weight: 100;
+        font-size: smaller;
+        line-height: 15px;
+        margin-right: 10px;
+        padding-bottom: 0px;
+    }
+    .banner-description{
+        font-size: xx-small;
+        margin-left: 10px;
+        
+
+    }
+    .form-control{
+        width: 180px;
+        height: 30px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        
+    }
+    .btn{
+        width: 80px;
+        font-size: x-small;
+    }
+    .legal-practice{
+        margin: 3px;
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .crsl{
+        position: absolute;
+        z-index: 10;
+        height: 100vh;
+        padding-left: 10px;
+        margin-top: 5px;
+       }
+    .carsl-img{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+ 
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .content-on-banner{
+        min-height: 150px;
+        max-width: 1170px;
+        
+        
+    }
+    .banner-title{
+        font-family: 'EB Garamond';
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 25px;
+        margin-right: 10px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+    .banner-description{
+        font-size: medium;
+        
+
+    }
+    .form-control{
+        width: 180px;
+        height: 40px;
+        padding-bottom: 10px;
+        margin-top: 2px;
+    }
+    .btn{
+        width: 80px;
+        font-size: x-small;
+    }
+    .legal-practice{
+        margin: 3px;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
